@@ -1,7 +1,7 @@
 @media screen and (max-width: 1920px) and (min-width: 1009px){
-	#bc{
-		display: none;
-	}
+    #bc{
+        display: none;
+    }
     .nombres{
         font-size: 2.2rem;
         color: rgb(211,049,103);
@@ -13,14 +13,51 @@
 }
 
 @media screen and (max-width: 1008px){
-    p, #mce-EMAIL, #mce-FNAME, #mce-LNAME, #mce-PHONE, #mce-BIRTHDAY-month, input, #des{
-        font-size: 2.5rem;
+    p{
+        font-size: 1.75rem;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+    footer{
+        height: auto;
+    }
+    footer img{
+        width: 22%;
+        margin-left: 5px;
+    }
+    .not{
+        display: none;
+    }
+    #creadores #des{
+        font-size: 1.8rem;
+    }
+    .lab,.texto .no, #personajes .no{
+        font-size: 2rem;
         color: #F0F0F0;
+        margin-left: 15px;
+        margin-right: 15px;
     }
     input{
         width:55%;
+        font-size: 2rem;
         height: 50px;
     }
+
+    #bor, #mc-embedded-subscribe{
+        width: 40%;
+        height: 50px;
+    }
+
+    #mce-EMAIL, #mce-FNAME, #mce-LNAME, #mce-PHONE{
+        width: 50%;
+        height: 50px;
+    }
+    #mce-BIRTHDAY-month, #mce-BIRTHDAY-day{
+        width: 20%;
+        height: 50px;
+    }
+
     #acerca{
         background-color: rgba(000,000,000,0.85);
         width: 90%;
