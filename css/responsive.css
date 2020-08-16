@@ -13,7 +13,14 @@
 }
 
 @media screen and (max-width: 1008px){
-
+    label, input{
+        font-size: 1.2rem;
+        color: #F0F0F0;
+    }
+    input{
+        width:20px;
+        height: 55%;
+    }
     #acerca{
         background-color: rgba(000,000,000,0.85);
         width: 90%;
