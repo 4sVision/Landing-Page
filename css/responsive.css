@@ -13,7 +13,7 @@
 }
 
 @media screen and (max-width: 1008px){
-    p, label, input{
+    p, #mce-EMAIL, #mce-FNAME, #mce-LNAME, #mce-PHONE, #mce-BIRTHDAY-month, input, #des{
         font-size: 2.5rem;
         color: #F0F0F0;
     }
