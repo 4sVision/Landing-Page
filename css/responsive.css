@@ -1,4 +1,4 @@
-@media screen and (max-width: 1920px) and (min-width: 769px){
+@media screen and (max-width: 1920px) and (min-width: 1009px){
 	#bc{
 		display: none;
 	}
@@ -12,7 +12,7 @@
 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1008px){
 
     #acerca{
         background-color: rgba(000,000,000,0.85);
